@@ -1,0 +1,67 @@
+li:first-child{
+    font-weight: bold;
+}
+li:last-child{
+    font-style: italic;
+}
+li:nth-child(3){
+    color: green;
+}
+
+.head2 h1:nth-child(2){
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+}
+
+/* / unvisited link / */
+a:link{
+  color: red;
+}
+
+/* / visited link / */
+/* a:visited { 
+  color: green;
+}  */
+
+/* / mouse over link / */
+a:hover {
+  color: hotpink;
+}
+
+/* / selected link / */
+a:active {
+  color: blue;
+}
+/* .header1{
+  color: aqua;
+  background-color: red;
+} */
+.qh2{
+  text-align: center;
+}
+body{
+  border: 5px solid black;
+}
+h2{
+  background-color: gray;
+}
+
+a{
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+}
+ul{
+  list-style-type: square;
+}
+button{
+  font-size: 20px;
+  color: white;
+  background-color: black;
+}
+button:hover{
+  color: black;
+  background-color: white;
+}
